@@ -28,7 +28,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return HTMLResponse(html)
+    return "This is a demo app"
 
 @app.get('/ping')
 async def hello():
